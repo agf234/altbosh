@@ -49,7 +49,7 @@ func EncryptPass(cleanpass string) []byte {
     cfb.XORKeyStream(ciphertext, plaintext)
     // fmt.Printf("%s=>%x\n", plaintext, ciphertext)
 
-return
+return ciphertext
 }
 
 // DecryptPass: decrypts a password returns a []byte 
@@ -74,8 +74,7 @@ func DecryptPass (  encryptedpass []byte ) []byte {
     plaintextCopy := make([]byte, len(encryptedpass))
     cfbdec.XORKeyStream(plaintextCopy, ciphertext)
     // fmt.Printf("%x=>%s\n", ciphertext, plaintextCopy)
-
-return
+return ciphertext
 }
 
 // CopyFile Copy file contents ## Src: http://www.devdungeon.com/content/working-files-go#copy
