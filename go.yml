@@ -16,4 +16,3 @@ run:
     env
     go version
     find .
-    make
