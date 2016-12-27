@@ -21,4 +21,4 @@ run:
     ls -ltr ..
     ls -ltr ../..
     cd controller
-    make
+    make compile
