@@ -8,7 +8,7 @@ image_resource:
     tag: 'latest'
 
 inputs:
-  - name: controller
+  - name: altbosh
   
 run:
   path: sh
