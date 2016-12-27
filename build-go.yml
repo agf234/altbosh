@@ -19,5 +19,5 @@ run:
     ls -ltr 
     ls -ltr ..
     ls -ltr ../..
-    cd controller
+    cd altbosh
     make compile
