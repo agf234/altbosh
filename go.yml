@@ -16,5 +16,5 @@ run:
     ls -ltr 
     ls -ltr ..
     ls -ltr ../..
-    cd build
+    ls -ltr build/
     make
