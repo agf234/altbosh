@@ -7,6 +7,10 @@ image_resource:
     repository: golang
     tag: 'latest'
 
+
+inputs:
+  - name: controller
+  
 run:
   path: sh
   args:
@@ -15,6 +19,5 @@ run:
     whoami
     env
     go version
-    find .
-    touch some-output/my-built-artifact
-    make
+    cd controller
+    make compile
