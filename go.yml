@@ -1,0 +1,19 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: agf234/concourse-test
+    tag: 'latest'
+
+run:
+  path: sh
+  args:
+  - -exc
+  - |
+    whoami
+    env
+    go version
+    find .
+    make
