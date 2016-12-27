@@ -12,4 +12,8 @@ run:
   args:
   - -exc
   - | 
+    pwd
+    ls -ltr 
+    ls -ltr ..
+    ls -ltr ../..
     make
