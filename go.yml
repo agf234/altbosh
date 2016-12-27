@@ -20,5 +20,4 @@ run:
     ls -ltr 
     ls -ltr ..
     ls -ltr ../..
-    ls -ltr build/
     make
