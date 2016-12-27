@@ -7,7 +7,6 @@ image_resource:
     repository: golang
     tag: 'latest'
 
-
 inputs:
   - name: controller
   
