@@ -9,7 +9,7 @@ image_resource:
 
 
 inputs:
-  - name: controller-go
+  - name: controller
   
 run:
   path: sh
