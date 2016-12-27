@@ -11,5 +11,5 @@ run:
   path: sh
   args:
   - -exc
-  - |
+  - | 
     go build altbosh.go
